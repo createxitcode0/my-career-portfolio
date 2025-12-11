@@ -63,8 +63,15 @@ export default function CareerPortfolio() {
                   <img
                     src="/profile.jpg"
                     alt="Profile"
-                    style={{ width: '150px', height: '150px', borderRadius: '50%', border: '5px solid #667eea' }}
-                  />
+                    style={{ 
+                            width: '150px', 
+                            height: '150px', 
+                            borderRadius: '50%', 
+                            border: '5px solid #667eea',
+                            objectFit: 'cover'  
+                            }}
+                            />
+                  
                   <div>
                     <h1 style={{ fontSize: '2.5em', color: '#333', marginBottom: '10px' }}>Jinfeng Wu</h1>
                     <p style={{ fontSize: '1.2em', color: '#667eea', marginBottom: '15px' }}>
