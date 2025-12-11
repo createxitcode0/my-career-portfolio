@@ -61,7 +61,7 @@ export default function CareerPortfolio() {
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '30px', flexWrap: 'wrap' }}>
                   <img
-                    src="/profile.png"
+                    src="/profile.jpg"
                     alt="Profile"
                     style={{ width: '150px', height: '150px', borderRadius: '50%', border: '5px solid #667eea' }}
                   />
